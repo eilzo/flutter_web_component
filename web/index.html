@@ -28,13 +28,6 @@
   </head>
   <body>
     <h1>This is my website!</h1>
-    <script>
-      if ("serviceWorker" in navigator) {
-        window.addEventListener("load", function() {
-          navigator.serviceWorker.register("flutter_service_worker.js");
-        });
-      }
-    </script>
     <flutter-app width="600px" height="800px"></flutter-app>
     <script src="flutter-app.js"></script>
     <br>
